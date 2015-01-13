@@ -68,3 +68,8 @@ If you are using a custom media type; such as 'youtube'. You will need to set th
 ## Release History
 
  - 0.1.0: Initial release
+
+## Credits
+
+ - Matthew Harrison-Jones: [@matt_hojo](http://twitter.com/matt_hojo)
+ - A massive hat tip goes to [BigVideo.js](https://github.com/dfcb/BigVideo.js) for some of the algorithms for calculating fullscreen.
