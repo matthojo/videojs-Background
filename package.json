@@ -1,6 +1,6 @@
 {
   "name": "videojs-background",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Matthew Harrison-Jones",
   "description": "Full background video for video.js",
   "license": "MIT",
@@ -9,7 +9,8 @@
     "html5",
     "flash",
     "video",
-    "player"
+    "player",
+    "background"
   ],
   "dependencies": {},
   "devDependencies": {
