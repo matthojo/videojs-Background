@@ -1,4 +1,4 @@
-/*! videojs-Fullscreen - v0.0.0 - 2015-1-13
+/*! videojs-Background - v0.0.0 - 2015-1-13
  * Copyright (c) 2015 Matthew Harrison-Jones
  * Licensed under the MIT license. */
 (function(window, videojs, qunit) {
@@ -27,7 +27,7 @@
       // throws(block, [expected], [message])
       throws = qunit.throws;
 
-  module('videojs-Fullscreen', {
+  module('videojs-Background', {
     setup: function() {
       // force HTML support so the tests run in a reasonable
       // environment under phantomjs
@@ -44,7 +44,7 @@
       player = videojs(video);
 
       // initialize the plugin with the default options
-      player.Fullscreen();
+      player.Background();
     },
     teardown: function() {
       videojs.Html5.isSupported = realIsHtmlSupported;
@@ -52,6 +52,6 @@
   });
 
   test('registers itself', function() {
-    ok(player.Fullscreen, 'registered the plugin');
+    ok(player.Background, 'registered the plugin');
   });
 })(window, window.videojs, window.QUnit);

@@ -1,6 +1,6 @@
-# Video.js Fullscreen
+# Video.js Background
 
-Fullbackground video for video.js
+Full background video for video.js
 
 ## Getting Started
 
