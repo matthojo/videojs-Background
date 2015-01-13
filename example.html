@@ -44,10 +44,14 @@
          style="position:absolute;top:0;left:0;overflow:hidden;z-index:-998;"
          height="100%"
          width="100%"
-         loop>
+         loop
+         >
+    <!--
+    data-setup='{ "techOrder": ["youtube"], "src": "https://www.youtube.com/watch?v=s0MDY9fl-IA" }'
+
     <p>
       Your browser doesn't support video. Please <a href="http://browsehappy.com/">upgrade your browser</a> to see the example.
-    </p>
+    </p> -->
     <source src="http://vjs.zencdn.net/v/oceans.mp4" type="video/mp4">
     <source src="http://vjs.zencdn.net/v/oceans.webm" type="video/webm">
   </video>
@@ -56,6 +60,7 @@
   <script>
     // fire up the plugin
     videojs('bg-video').Background();
+    // videojs('bg-video').Background({mediaType: 'youtube'});
   </script>
 </body>
 </html>
