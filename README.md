@@ -19,7 +19,7 @@ Once you've added the plugin script to your page, you can use it with any video:
   }
 </style>
 <script src="video.js"></script>
-<script src="videojs-Background.js"></script>
+<script src="videojs-background.js"></script>
 <script>
   videojs('bg-video').Background();
 </script>
