@@ -64,6 +64,9 @@ Default: 'html5'
 
 If you are using a custom media type; such as 'youtube'. You will need to set this so the video can be targetted correctly.
 
+### Notes
+
+On some mobile devices (such as iOS), auto playing videos is not allowed. In the event of this the videos 'poster' will be displayed as the full background.
 
 ## Release History
 
