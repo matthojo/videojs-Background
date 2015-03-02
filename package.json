@@ -1,6 +1,6 @@
 {
   "name": "videojs-background",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Matthew Harrison-Jones",
   "description": "Full background video for video.js",
   "license": "MIT",
@@ -20,7 +20,6 @@
     "grunt-contrib-qunit": "^0.2",
     "grunt-contrib-uglify": "^0.2",
     "grunt-contrib-watch": "^0.4",
-
     "video.js": "^4.5",
     "qunitjs": "^1.12"
   },
