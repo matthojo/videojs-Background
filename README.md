@@ -68,8 +68,15 @@ If you are using a custom media type; such as 'youtube'. You will need to set th
 
 On some mobile devices (such as iOS), auto playing videos is not allowed. In the event of this the videos 'poster' will be displayed as the full background.
 
-## Release History
+### Installation
 
+You can simply take the JS from `/lib/videojs-background.js` and use as per the `exmaple.html`. Alternatively, you can use the below package managers;
+
+#### Bower
+`bower install videojs-background`
+
+## Release History
+ - 1.0.0: Production ready
  - 0.1.0: Initial release
 
 ## Credits
