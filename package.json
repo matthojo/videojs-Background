@@ -1,6 +1,6 @@
 {
   "name": "videojs-background",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Matthew Harrison-Jones",
   "description": "Full background video for video.js",
   "license": "MIT",
@@ -12,7 +12,9 @@
     "player",
     "background"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "video.js": "^4.12.5"
+  },
   "devDependencies": {
     "grunt-contrib-clean": "^0.4",
     "grunt-contrib-concat": "^0.3",
@@ -24,9 +26,6 @@
     "qunitjs": "^1.12"
   },
   "peerDependencies": {
-    "video.js": "^4.12.5"
-  },
-  "dependencies": {
     "video.js": "^4.12.5"
   },
   "main": "dist/videojs-background.js",
