@@ -1,3 +1,4 @@
-dist/
-test/
-*~
+# Exclude everything but the contents of the lib and dist directory.
+**/*
+!dist/**
+!lib/**
