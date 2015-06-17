@@ -28,7 +28,7 @@
   "peerDependencies": {
     "video.js": "^4.12.5"
   },
-  "main": "dist/videojs-background.js",
+  "main": "lib/videojs-Background.js",
   "directories": {
     "test": "test"
   },
