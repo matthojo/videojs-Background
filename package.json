@@ -24,6 +24,24 @@
     "qunitjs": "^1.12"
   },
   "peerDependencies": {
-    "video.js": "^4.5"
-  }
+    "video.js": "^4.12.5"
+  },
+  "dependencies": {
+    "video.js": "^4.12.5"
+  },
+  "main": "dist/videojs-background.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthojo/videojs-Background.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matthojo/videojs-Background/issues"
+  },
+  "homepage": "https://github.com/matthojo/videojs-Background#readme"
 }
