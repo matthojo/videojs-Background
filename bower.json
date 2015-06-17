@@ -1,12 +1,12 @@
 {
   "name": "videojs-background",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/matthojo/videojs-Background",
   "authors": [
     "Matthew Harrison-Jones <matthojo@gmail.com>"
   ],
   "description": "Full background video for video.js",
-  "main": "lib/videojs-Background.js",
+  "main": "dist/videojs-background.js",
   "keywords": [
     "videojs",
     "html5",
