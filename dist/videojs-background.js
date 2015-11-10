@@ -1,4 +1,4 @@
-/*! videojs-background - v1.0.1 - 2015-06-17
+/*! videojs-background - v1.0.3 - 2015-11-10
 * Copyright (c) 2015 Matthew Harrison-Jones; Licensed MIT */
 (function(window, videojs) {
   'use strict';
@@ -20,7 +20,7 @@
    * @param options (optional) {object} configuration for the plugin
    */
   Background = function(options) {
-    var settings = videojs.util.mergeOptions(defaults, options),
+    var settings = videojs.mergeOptions(defaults, options),
         player = this,
         videoEl = d.getElementById(player.id() + '_' + settings.mediaType + '_api');
 
