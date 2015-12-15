@@ -1,4 +1,4 @@
-/*! videojs-background - v1.0.4 - 2015-12-15
+/*! videojs-background - v1.0.5 - 2015-12-15
 * Copyright (c) 2015 Matthew Harrison-Jones; Licensed MIT */
 (function(window, videojs) {
   'use strict';
