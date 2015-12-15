@@ -12,6 +12,9 @@
     "player",
     "background"
   ],
+  "dependencies": {
+    "video.js": "^5.0.2"
+  },
   "devDependencies": {
     "grunt-contrib-clean": "^0.4",
     "grunt-contrib-concat": "^0.3",
@@ -20,9 +23,6 @@
     "grunt-contrib-uglify": "^0.2",
     "grunt-contrib-watch": "^0.4",
     "qunitjs": "^1.12"
-  },
-  "peerDependencies": {
-    "video.js": "^5.0.2"
   },
   "main": "dist/videojs-background.js",
   "directories": {
