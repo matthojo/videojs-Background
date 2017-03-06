@@ -24,7 +24,7 @@
     "grunt-contrib-watch": "^0.4",
     "qunitjs": "^1.12"
   },
-  "main": "dist/videojs-background.js",
+  "main": "./lib/videojs-Background.js",
   "directories": {
     "test": "test"
   },
