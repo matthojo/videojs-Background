@@ -37,7 +37,7 @@ object may contain any of the following properties:
 Type: `String`
 Default: 'body'
 
-This specifies the target element for your background video. It defualts to the body for a full background video.
+This specifies the target element for your background video. It defaults to the body for a full background video.
 
 #### autoPlay
 Type: `Boolean`
@@ -70,7 +70,7 @@ On some mobile devices (such as iOS), auto playing videos is not allowed. In the
 
 ### Installation
 
-You can simply take the JS from `/lib/videojs-background.js` and use as per the `exmaple.html`. Alternatively, you can use the below package managers;
+You can simply take the JS from `/lib/videojs-background.js` and use as per the `example.html`. Alternatively, you can use the below package managers;
 
 #### Bower
 `bower install videojs-background`
